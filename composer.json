@@ -1,0 +1,16 @@
+{
+    "name": "akash/mylaravelpackage",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Akash\\Mylaravelpackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akash\\Mylaravelpackage\\MylaravelpackageServiceProvider"
+            ]
+        }
+    }
+}
