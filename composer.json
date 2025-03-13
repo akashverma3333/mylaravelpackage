@@ -1,16 +1,13 @@
 {
-    "name": "akash/mylaravelpackage",
-    "require": {},
+    "name": "akashverma3333/mylaravelpackage",
+    "description": "Your Laravel package description",
+    "type": "library",
     "autoload": {
         "psr-4": {
-            "Akash\\Mylaravelpackage\\": "src/"
+            "MyLaravelPackage\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Akash\\Mylaravelpackage\\MylaravelpackageServiceProvider"
-            ]
-        }
+    "require": {
+        "php": ">=7.4"
     }
 }
